@@ -17,17 +17,30 @@ class ViewControllerHitch: UIViewController {
     @IBOutlet weak var endLoc: UITextField!
     @IBOutlet weak var endRange: UISlider!
     @IBOutlet weak var endRangeOutput: UILabel!
+    //Date
+    @IBOutlet weak var dateIn: UIDatePicker!
+    @IBOutlet weak var flex: UISlider!
+    @IBOutlet weak var flexOut: UILabel!
+    
+    //num
+    @IBOutlet weak var numRider: UIStepper!
+    @IBOutlet weak var numOut: UILabel!
     
     @IBAction func startAct(_ sender: Any) {
         startRangeOutput.text = "\(Int(startRange.value)) Mi"
     }
-    
-    
     @IBAction func end(_ sender: Any) {
         endRangeOutput.text = "\(Int(endRange.value)) Mi"
     }
-    
-    
+    @IBAction func flexAct(_ sender: Any) {
+         flexOut.text = "\(Int(flex.value)) Days"
+    }
+    @IBAction func numAct(_ sender: Any) {
+        numOut.text = "\(Int(numRider.value))"
+    }
+    @IBAction func searchRides(_ sender: Any) {
+        //search rides
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
