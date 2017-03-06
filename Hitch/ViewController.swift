@@ -12,13 +12,24 @@ class ViewController: UIViewController {
     //variables for account input
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-    
+    @IBOutlet weak var signLabel: UIButton!
     
     @IBAction func signIn(_ sender: Any) {
         //when Sign In pressed
-        performSegue(withIdentifier: "toSignIn", sender: self)
+        if emailField.text != "" || passwordField.text != "" {
+            performSegue(withIdentifier: "toSignIn", sender: self)
+            
+        }
+        else{
+            func shouldPerformSegueWithIdentifier(identifier: String,sender: AnyObject?) -> Bool {
+                
+                return true
+            }
+            signLabel.setTitle("Try Again", for: .normal)
+          
+        }
+        
     }
-    
     @IBAction func newAccount(_ sender: Any) {
         //when New Account pressed
     }

@@ -50,7 +50,6 @@
                                 </state>
                                 <connections>
                                     <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ukz-tF-p2Q"/>
-                                    <segue destination="Org-te-Eko" kind="show" identifier="toSignIn" id="zq4-vO-fbX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvI-Qb-3eF">
@@ -87,16 +86,18 @@
                     <connections>
                         <outlet property="emailField" destination="8iH-YX-4Fd" id="NH4-8w-Eg1"/>
                         <outlet property="passwordField" destination="bAG-Sv-hEz" id="N0P-IB-5Ah"/>
+                        <outlet property="signLabel" destination="jV4-n8-L8q" id="SBX-Oi-228"/>
+                        <segue destination="Org-te-Eko" kind="show" identifier="toSignIn" id="56g-z9-4JB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Menu-->
         <scene sceneID="Gcw-5l-Aal">
             <objects>
-                <viewController id="Org-te-Eko" sceneMemberID="viewController">
+                <viewController id="Org-te-Eko" customClass="ViewControllerMenu" customModule="Hitch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="suE-FW-TJ2"/>
                         <viewControllerLayoutGuide type="bottom" id="xC1-DH-iHE"/>
