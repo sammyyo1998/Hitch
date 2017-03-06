@@ -16,6 +16,7 @@
 		676C3A121E6BD889005637FE /* HitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C3A111E6BD889005637FE /* HitchUITests.swift */; };
 		6795E5251E6D2F6800FC7234 /* Logo.paint in Resources */ = {isa = PBXBuildFile; fileRef = 6795E5241E6D2F6800FC7234 /* Logo.paint */; };
 		6795E5271E6D2FAD00FC7234 /* IMG_6173-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6795E5261E6D2FAD00FC7234 /* IMG_6173-1.JPG */; };
+		6795E5291E6D369F00FC7234 /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6795E5281E6D369F00FC7234 /* ViewControllerMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		676C3A131E6BD889005637FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6795E5241E6D2F6800FC7234 /* Logo.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Logo.paint; sourceTree = "<group>"; };
 		6795E5261E6D2FAD00FC7234 /* IMG_6173-1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6173-1.JPG"; sourceTree = "<group>"; };
+		6795E5281E6D369F00FC7234 /* ViewControllerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				676C39F11E6BD889005637FE /* AppDelegate.swift */,
 				676C39F31E6BD889005637FE /* ViewController.swift */,
 				676C39F51E6BD889005637FE /* Main.storyboard */,
+				6795E5281E6D369F00FC7234 /* ViewControllerMenu.swift */,
 				676C39F81E6BD889005637FE /* Assets.xcassets */,
 				676C39FA1E6BD889005637FE /* LaunchScreen.storyboard */,
 				676C39FD1E6BD889005637FE /* Info.plist */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6795E5291E6D369F00FC7234 /* ViewControllerMenu.swift in Sources */,
 				676C39F41E6BD889005637FE /* ViewController.swift in Sources */,
 				676C39F21E6BD889005637FE /* AppDelegate.swift in Sources */,
 			);
