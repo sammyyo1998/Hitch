@@ -14,6 +14,8 @@
 		676C39FC1E6BD889005637FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C39FA1E6BD889005637FE /* LaunchScreen.storyboard */; };
 		676C3A071E6BD889005637FE /* HitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C3A061E6BD889005637FE /* HitchTests.swift */; };
 		676C3A121E6BD889005637FE /* HitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C3A111E6BD889005637FE /* HitchUITests.swift */; };
+		6795E5251E6D2F6800FC7234 /* Logo.paint in Resources */ = {isa = PBXBuildFile; fileRef = 6795E5241E6D2F6800FC7234 /* Logo.paint */; };
+		6795E5271E6D2FAD00FC7234 /* IMG_6173-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6795E5261E6D2FAD00FC7234 /* IMG_6173-1.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		676C3A0D1E6BD889005637FE /* HitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676C3A111E6BD889005637FE /* HitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitchUITests.swift; sourceTree = "<group>"; };
 		676C3A131E6BD889005637FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6795E5241E6D2F6800FC7234 /* Logo.paint */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Logo.paint; sourceTree = "<group>"; };
+		6795E5261E6D2FAD00FC7234 /* IMG_6173-1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6173-1.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				676C3A051E6BD889005637FE /* HitchTests */,
 				676C3A101E6BD889005637FE /* HitchUITests */,
 				676C39EF1E6BD889005637FE /* Products */,
+				6795E5241E6D2F6800FC7234 /* Logo.paint */,
+				6795E5261E6D2FAD00FC7234 /* IMG_6173-1.JPG */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,7 +240,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				676C39FC1E6BD889005637FE /* LaunchScreen.storyboard in Resources */,
+				6795E5251E6D2F6800FC7234 /* Logo.paint in Resources */,
 				676C39F91E6BD889005637FE /* Assets.xcassets in Resources */,
+				6795E5271E6D2FAD00FC7234 /* IMG_6173-1.JPG in Resources */,
 				676C39F71E6BD889005637FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +516,7 @@
 				676C3A181E6BD889005637FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676C3A191E6BD889005637FE /* Build configuration list for PBXNativeTarget "HitchTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				676C3A1B1E6BD889005637FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676C3A1C1E6BD889005637FE /* Build configuration list for PBXNativeTarget "HitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				676C3A1E1E6BD889005637FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
