@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func signIn(_ sender: Any) {
         //when Sign In pressed
-        if emailField.text != "" || passwordField.text != "" {
+        if emailField.text != "" && passwordField.text != "" {
             performSegue(withIdentifier: "toSignIn", sender: self)
             
         }
